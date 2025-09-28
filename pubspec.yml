@@ -1,0 +1,24 @@
+name: scanner_export_pdf
+description: App Flutter pour scanner codes-barres, gérer quantités et exporter en PDF.
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: ">=2.18.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Scanner caméra (léger et fiable)
+  mobile_scanner: ^3.0.0
+
+  # Génération & partage PDF
+  pdf: ^3.10.0
+  printing: ^5.10.0
+
+  # Pour gérer permissions si nécessaire
+  permission_handler: ^10.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
